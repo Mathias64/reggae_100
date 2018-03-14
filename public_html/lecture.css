@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 févr. 2018, 19:04:21
+    Author     : mathias
+*/
+@font-face {
+    font-family: "Manero University";
+    src: url('fonts/Manero University.ttf');
+}
+body {
+    font-family: "arial";
+    background: url('habillage/reggae3.jpg') no-repeat top center;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#container {
+    width: 600px;
+}
+header {
+    
+}
+h1 {
+    font-family: "Manero University";
+    font-size: 7em;
+    display: inline-block;
+    width: 150px;
+    margin: 0;
+}
+h2 {
+    font-family: "Manero University";
+    font-size: 3em;
+    display: inline-block;
+    margin: 0;
+}
+
+nav {
+    width: 300px;
+}
+#contenu {
+    background-color: burlywood;
+    display: inline-block;
+    margin-top: -20px;
+    height: 100%;
+}
+
+#artiste {
+    text-transform: uppercase;
+}
+#variations, #texte, #paroles, #conseil {
+    margin: 10px 0 10px 50px;
+}
+#variations {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#texte {
+    
+}
+
+#paroles {
+    font-style: italic;
+}
+#conseil {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: chocolate;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    /*width: 100%;*/
+    display: flex;
+    justify-content: space-between;
+}
