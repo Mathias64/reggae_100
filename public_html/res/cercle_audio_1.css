@@ -1,0 +1,328 @@
+body {
+    font-family:Verdana, Geneva, sans-serif;
+    background-color:#b2bdc6;
+}
+
+#audio_conteneur{
+    float: left;
+    height:300px;
+    width:300px;
+}
+
+#audio_conteneur2{
+    float:left;
+    display:inline-block;
+    height:350px;
+    width:350px;
+}
+
+#audio_conteneur3 {
+    float:left;
+    display:inline-block;
+    height:320px;
+    width:320px;
+}
+
+#audio_conteneur4 {
+    float:left;
+    display:inline-block;
+    height:350px;
+    width:350px;
+}
+
+#audio_conteneur5 {
+    float:left;
+    display:inline-block;
+    height:360px;
+    width:360px;
+}
+
+#audio_conteneur6 {
+    float:left;
+    height:350px;
+    width:350px;
+}
+
+.cvs_audio {
+    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+}
+
+.ctn_controle {
+    width:40%;
+    height:40%;
+    position:relative;
+    margin: auto;
+    bottom: 70%;
+    /*background-color: black;*/
+    background-image: url("../relax.jpg");
+    background-size: 150% 150%;
+    background-position: center center;
+    border-radius: 70px;
+}
+
+.tmpval{
+    padding: 10px 0 5px 0;
+    text-align:center;
+    color:white;
+    cursor:pointer;
+}
+
+/*.touche {
+    margin: auto;
+}*/
+
+.precedent {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(119, 119, 119, 0.75));
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.75));
+    float:left;
+    width:18px;
+    height:16px;
+    margin-top:30px;
+    opacity:0.9;
+    background-image:url("precedent.png");
+    background-size:100% 100%;
+}
+
+.btn_play{
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(119, 119, 119, 0.75));
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.75));
+    width:60px;
+    height:60px;
+    margin: auto;
+    opacity:0.9;
+    background-image:url("play.png");
+    background-size:100% 100%;
+}
+.class_r .btn_play{
+    margin-top:0px;
+    background-image:url("play_k.png");
+    width:100px;
+    height:100px;
+    margin-left:30px;
+    background-size:100% 100%;
+    opacity:0.8;
+}
+
+.btn_pause{
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(119, 119, 119, 0.75));
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.75));
+    display:block;
+    width:60px;
+    height:60px;
+    margin: auto;
+    opacity:0.9;
+    background-image:url("pause.png");
+    background-size:100% 100%;
+}
+
+.suivant{
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(119, 119, 119, 0.75));
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.75));
+    width:18px;
+    height:16px;
+    float:right;
+    margin-right:0px;
+    opacity:0.9;
+    margin-top:-40px;
+    background-image:url("suivant.png");
+    background-size:100% 100%;
+}
+
+.precedent:hover, .suivant:hover, .btn_play:hover, .btn_pause:hover{
+    opacity:1;
+    cursor:pointer;
+}
+
+.volbar{
+    height:6px;
+    background:white;
+    width:90px;
+    margin:auto;
+    margin-top:10px;
+    border-radius:3px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.75);
+    opacity:0.9;
+}
+
+.volbar:hover{
+    opacity:1;
+    cursor:pointer;
+}
+	
+.volcur{
+    height:6px;
+    background:#7FFFBF;
+    width:inherit;
+    border-radius:3px;
+}
+
+
+
+/* partie pour le lecteur bleue on surcharge les class------------------------*/
+
+.position{
+    background-color: transparent;
+}
+
+.position .btn_play{
+    margin-top:0px;
+    background-image:url("cc.png");
+    width:80px;
+    height:80px;
+    background-size:100% 100%;
+}
+
+.position .btn_pause{
+    background-image:url("aa.png");
+    width:80px;
+    height:80px;
+}
+
+.position .volcur{
+    background:#04C4F9;
+}
+
+.position .volbar{
+    background:none;
+    border:1px solid #04C4F9;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+.position .tmpval{
+    color:#04C4F9;
+}
+
+/* partie pour le lecteur rouge on surcharge les class------------------------*/
+
+.position2{
+    background-color: transparent;
+}
+
+.position2 .btn_play{
+    margin-top:0px;
+    background-image:url("ccr.png");
+    width:80px;
+    height:80px;
+    background-size:100% 100%;
+}
+
+.position2 .btn_pause{
+    background-image:url("aar.png");
+    width:80px;
+    height:80px;
+}
+
+.position2 .volcur{
+    background:#FF456A;
+}
+
+.position2 .volbar{
+    background:none;
+    border:1px solid #FF456A;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+.position2 .tmpval{
+    color:#FF456A;
+}
+
+/* partie pour le lecteur kool on surcharge les class-------------------------*/
+
+.class_k{
+    margin-left:25px;
+    margin-top:-40px;
+}
+
+.class_k .btn_play{
+    margin-top:0px;
+    background-image:url("play_k.png");
+    width:100px;
+    height:100px;
+    margin-left:30px;
+    background-size:100% 100%;
+    opacity:0.8;
+}
+
+.class_k .btn_pause{
+    background-image:url("pause_k.png");
+    margin-left:30px;
+    width:100px;
+    height:100px;
+    opacity:0.8;
+}
+
+.class_k .volcur{
+    background:gray;
+}
+
+.class_k .volbar{
+    background:none;
+    border:1px solid gray;
+    opacity:0.5;
+}
+
+.class_k .tmpval{
+    color:white;
+    text-shadow:none;opacity:0.7;
+    font-size:25px;
+    transform: rotateY( -60deg );
+}
+
+.class_k .volbar:hover{
+    opacity:1;
+    cursor:pointer;
+}
+
+.class_k .btn_play:hover, .class_k .btn_pause:hover{
+    opacity:1;
+    cursor:pointer;
+}
+
+.class_l{
+    margin-left:25px;
+    margin-top:-40px;
+}
+
+/* partie pour le lecteur reggae on surcharge les class-------------------------*/
+
+/*.class_r{
+    margin-left:25px;
+    margin-top:-40px;
+}*/
+
+
+
+.class_r .btn_pause{
+    background-image:url("pause_k.png");
+    margin-left:30px;
+    width:100px;
+    height:100px;
+    opacity:0.8;
+}
+
+.class_r .volcur{
+    background:gray;
+}
+
+.class_r .volbar{
+    background:none;
+    border:1px solid gray;
+    opacity:0.5;
+}
+
+.class_r .tmpval{
+    color:white;
+    text-shadow:none;opacity:0.7;
+    font-size:25px;
+    transform: rotateY( -60deg );
+}
+
+.class_r .volbar:hover{
+    opacity:1;
+    cursor:pointer;
+}
+
+.class_r .btn_play:hover, .class_r .btn_pause:hover{
+    opacity:1;
+    cursor:pointer;
+}

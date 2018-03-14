@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Les 100 + REGGAE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="res/cercle_audio_1.css"/>
+        <link rel="shortcut icon" href="favicon.ico">
+        <script src="res/playliste.json"></script>
+        <script src="res/cercle_audio.js"></script>
+        
+        <script>
+            addEventListener('load', function () {
+                // Lecteur
+                var config = {
+                    conteneur: 'audio_conteneur',   // id du conteneur ou se trouvera le lecteur.
+                    diametre_lecteur: 300,          // diametre du lecteur.
+                    couleur_centre: "coral",        // couleur du cercle centrale.
+                    couleur_progres: "#7FFFBF",     // couleur de la barre de progression.
+                    couleur_fond: "white",          // couleur du fond.
+                    couleur_ombre: "black",         // couleur de l'ombre.
+                    diametre_detect: 130,           // afin de faire fonctionner la selection de la position de lecture en fonction d'un certain diametre parametrable en fonction du rayon du lecteur.
+                    epaisseur_barre: 15,            // épaisseure de la barre de défilement
+                    image: false,                   // chemin et nom de l'image a afficher quand il n'y a pas de playliste
+                    rotation: false,                // true ou false l'image tourne ou ne tourne pas.
+                    vitesse_rotation: 2,            //vitesse de rotation de l'image.
+                    ressources: "res/",             // repertoire ou se trouve les images du lecteur.
+                    class_suplementaire: false,     // optionnel false ou nom de la classe, rajoute une class css suplementaire pour le positionnement individuel et le designe des commandes de lecture si plusieurs lecteur differents.
+                    fichier: false,                 // optionnel si fichier audio unique indiquer le chemin du fichier sinon mettre false.
+                    playliste: playliste            // optionnel si utilisation d'une playliste indiquer le nom de la playliste sinon mettre false.
+                };
+                new cercle_audio(config);
+                
+                // Lecteur 2
+                var config = {
+                    conteneur: 'audio_conteneur2',
+                    couleur_centre: "rgba(0, 0, 255, 0.6)",
+                    couleur_progres: "black",
+                    couleur_fond: "white",
+                    couleur_ombre: "black",
+                    diametre_lecteur: 350,
+                    diametre_detect: 105,
+                    epaisseur_barre: 0,
+                    image: false,
+                    rotation: false,
+                    vitesse_rotation: 2,
+                    ressources: "res/",
+                    class_suplementaire: "position",
+                    fichier: "http://scriptevol.free.fr/contenu/player_c/zic/l_allen_hard_out_here.mp3",
+                    playliste: false
+                };
+                new cercle_audio(config);
+                
+                // Lecteur 3
+                var config = {
+                    conteneur: 'audio_conteneur3',
+                    couleur_centre: "rgba(255, 0, 0, 0.6)",
+                    couleur_progres: "black",
+                    couleur_fond: "white",
+                    couleur_ombre: "black",
+                    diametre_lecteur: 320,
+                    diametre_detect: 130,
+                    epaisseur_barre: 15,
+                    image: false,
+                    rotation: false,
+                    vitesse_rotation: 2,
+                    ressources: "res/",
+                    class_suplementaire: "position2",
+                    fichier: "http://scriptevol.free.fr/contenu/player_c/zic/k_g_love_festival.mp3",
+                    playliste: false
+                };
+                new cercle_audio(config);
+                
+                // Lecteur 4
+                var config = {
+                    conteneur: 'audio_conteneur4',  // id du conteneur ou se trouvera le lecteur
+                    diametre_lecteur: 350,          // diametre du lecteur
+                    couleur_centre: "gray",         // couleur du cercle centrale
+                    couleur_progres: "black",       // couleur de la barre de progression
+                    couleur_fond: "white",          // couleur du fond
+                    couleur_ombre: "black",         // couleur de l'ombre
+                    diametre_detect: 125,           // afin de faire fonctionner la selection de la position de lecture en fonction d'un certain diametre parametrable en fonction du rayon du lecteur
+                    epaisseur_barre: 10,            // épaisseure de la barre de défilement
+                    image: "pochette/kool_g.jpg",   // chemin et nom de l'image a afficher quand il n'y a pas de playliste
+                    rotation: true,                 // true ou false l'image tourne ou ne tourne pas
+                    vitesse_rotation: 2,            //vitesse de rotation de l'image
+                    ressources: "res/",             //repertoire ou se trouve les images du lecteur
+                    class_suplementaire: "class_k", //optionnel false ou nom de la classe, rajoute une class css suplementaire pour le positionnement individuel des commandes de lecture si plusieurs lecteur
+                    fichier: "http://scriptevol.free.fr/contenu/player_c/zic/kool_get_down.mp3", //optionnel si fichier audio unique indiquer le chemin du fichier sinon mettre false
+                    playliste: false                //optionnel si utilisation d'une playliste indiquer le nom de la playliste sinon mettre false
+                };
+                new cercle_audio(config);
+                
+                // Lecteur 5
+                var config = {
+                    conteneur: 'audio_conteneur5',  // id du conteneur ou se trouvera le lecteur.
+                    diametre_lecteur: 360,          //diametre du lecteur.
+                    couleur_centre: "coral",        //couleur du cercle centrale.
+                    couleur_progres: "red",     //couleur de la barre de progression.
+                    couleur_fond: "white",          //couleur du fond.
+                    couleur_ombre: "black",         //couleur de l'ombre.
+                    diametre_detect: 130,           // afin de faire fonctionner la selection de la position de lecture en fonction d'un certain diametre parametrable en fonction du rayon du lecteur
+                    epaisseur_barre: 15,            // épaisseure de la barre de défilement
+                    image: false,                   // chemin et nom de l'image a afficher quand il n'y a pas de playliste
+                    rotation: true,                 // true ou false l'image tourne ou ne tourne pas.
+                    vitesse_rotation: 2,            //vitesse de rotation de l'image.
+                    ressources: "res/",             //repertoire ou se trouve les images du lecteur.
+                    class_suplementaire: "class_l", //optionnel false ou nom de la classe, rajoute une class css suplementaire pour le positionnement individuel des commandes de lecture si plusieurs lecteurs.
+                    fichier: false,                 //optionnel si fichier audio unique indiquer le chemin du fichier sinon mettre false.
+                    playliste: playliste2           //optionnel si utilisation d'une playliste indiquer le nom de la playliste sinon mettre false.
+                };
+                new cercle_audio(config);
+               
+                // Lecteur 6
+                var config = {
+                    conteneur: 'audio_conteneur6',  // id du conteneur ou se trouvera le lecteur
+                    diametre_lecteur: 350,          // diametre du lecteur
+                    couleur_centre: "gray",         // couleur du cercle centrale
+                    couleur_progres: "black",       // couleur de la barre de progression
+                    couleur_fond: "gray",           // couleur du fond
+                    couleur_ombre: "black",         // couleur de l'ombre
+                    diametre_detect: 100,           // afin de faire fonctionner la selection de la position de lecture en fonction d'un certain diametre parametrable en fonction du rayon du lecteur
+                    epaisseur_barre: 10,            // épaisseure de la barre de défilement
+                    image: "pochette/3_althia-and-donna-350.jpg",   // chemin et nom de l'image a afficher quand il n'y a pas de playliste
+                    rotation: true,                 // true ou false l'image tourne ou ne tourne pas
+                    vitesse_rotation: 2,            //vitesse de rotation de l'image
+                    ressources: "res/",             //repertoire ou se trouve les images du lecteur
+                    class_suplementaire: false, //optionnel false ou nom de la classe, rajoute une class css suplementaire pour le positionnement individuel des commandes de lecture si plusieurs lecteurs
+                    fichier: "zic/13 Noah Sugar Pan.mp3", //optionnel si fichier audio unique indiquer le chemin du fichier sinon mettre false
+                    playliste: false                //optionnel si utilisation d'une playliste indiquer le nom de la playliste sinon mettre false
+                };
+                new cercle_audio(config);
+                
+            }, false);
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>althea and donna</h1>
+            <p>3</p>
+            <p><a href="./lecture.html">Lecture</a></p>
+        </header>
+        <div id='audio_conteneur6'></div>
+        <div id='audio_conteneur2'></div>
+        <div id='audio_conteneur'></div>
+        <div id='audio_conteneur3'></div>
+        <div id='audio_conteneur4'></div>
+        <div id='audio_conteneur5'></div>
+<!--        <section>
+            <h1>Uptown Top Ranking, 1978</h1>
+            <p><b>Variations complémentaires : 
+                Alton ellis : I'm Still In Love With You - 
+                Marcia Aitken : I'm Still In Love With You - 
+                Sean Paul : I'm Still In Love With You</b>
+            </p>
+            <p>
+                L'histoire de ce morceau est racontée dans k'introduction de ce livre. Ajoutons tout 
+                de même qu'Althea Forrest et Donna Reid, surgies du ghetto de Kingston, n'ont jamais 
+                retrouvé le succès fulgurant de cette production de Joe Gibbs, qui est montée au 
+                numéro un des ventes en Angleterre en février 1978. Uptown Top Ranking a depuis été 
+                repris par Portishaead, Estelle (produite par l'Allemand Joni Rewind), Black Blox 
+                Recorder (album "England Made Me") et a ému Abs Breen, qui l'a samplé pour son tube
+                de 2002 What You Got. Sans oublier la délicieuse Scout Niblett, qui l'a repris en 
+                2004. Uptown Top Ranking a même été entendu dans l'épisode n° 47 (Dream Team) de la 
+                série Entourage avec Adrian Grenier et Kevin Dillon !<br>
+                <br>
+                <i>See me in my heels and t'ing<br>
+                Them check so we hip and t'ing<br>
+                Through them no know and t'ing<br>
+                We'll have going and t'ing</i>
+            </p>
+        </section>-->
+
+    </body>
+</html>

@@ -1,0 +1,111 @@
+[
+    {
+        "artiste": "Max Romeo",
+        "titre": "Chase the Devil",
+        "variations": [
+            {   "artiste": "",
+                "titre": [
+                    {"version": "<i>Chase the Devil Dub</i> (version dub)"},
+                    {"version": "Croacking Lizard (version dub)"}]
+            }],
+        "texte": "Sur l’album « War Ina Babylon », Max Romeo chantait Chase the Devil. Il s’y applique à poursuivre le diable jusqu’à ce qu’il quitte la terre. Si c’était encore nécessaire, ce titre indique la teneur du profond mysticisme qui habite les Jamaïcains. Un classique du son Lee « Scratch » Perry, repris avec moult succès par Prodigy en 1992 sous le titre Out of Space en plein âge d’or des raves.",
+        "paroles": "Lucifer son of the morning<br>I’m gonna chase you out of earth !<br>I’m gonna put on a iron shirt<br>And chase Satan out of earth<br>",
+        "conseil": [
+            {   "artiste": "Max Romeo",
+                "titres": [ "Fire Fe De Vatican",
+                            "Open the Iron Gate <i>(Parts 1 & 2)</i>",
+                            "One Step Formard",
+                            "A Quarter Pound of I’cense"
+                ]
+            }
+        ]
+    },
+    {
+        "artiste": "Tenor Saw",
+        "titre": "Ring The Alarm, 1985",
+        "variations": [
+            {   "artiste": "Big Youth",
+                "titre": [
+                    {"version": "All Nations Bow"}]
+            },
+            {   "artiste": "The Soul Syndicate",
+                "titre": [
+                    {"version": "Stalag 17"}]
+            }],
+        "texte": "L'élection en 1972 du socialiste démocrate Michael Manley est précédée par une campagne électorale très meurtière. Bientôt toute personne détenant un pistolet, ou même des balles, encourt ine peine de prison à perpetuité, et les miradors de la nouvelle prison de Gun Courtt inspirent à l'organiste Ansel Collins et son groupe le Soul Syndicate le nom de Stalag 17 18 19 pour leur 45 tours instrumental de 1972 (inspiré par le film Stalag 17 de Billy Wilder en 1953 avec William Holden) du nom des camps nazis.",
+        "paroles": "Hey woah, ring the alarm<br>Another sound is dying<br>Come listen ti this song - a champion<br>Ram the dance any session<br>",
+        "conseil": [
+            {   "artiste": "Tenor Saw",
+                "titres": [ "Fever"]
+            }
+        ]
+    },
+    {
+        "artiste": "Love Joys",
+        "titre": "One Draw, 1982",
+        "variations": [
+            {   "artiste": "Rita Marley",
+                "titre": [
+                    {"version": "One Draw"}]
+            },
+            {   "artiste": "So High",
+                "titre": [
+                    {"version": "One Draw Dub (version dub)"}]
+            }],
+        "texte": "Un reprise accélérée de la composition Rita Marley, dont l'original est sorti en France en 1982. L'interprétation suractivée de cet hymne à la ganja par le duo de filles Love Joys vaut vraiment le détour (et la version 1981 de Rita aussi !). il est bien question de tirer sur un joint : le titre pourrait être traduit par \"une taffe\" ou \"une bouffée\"",
+        "paroles": "I want to get high, so high<br>I want to get high, so high<br>One draw, One draw<br>",
+        "conseil": ""
+    },
+    {
+        "artiste": "Barrington Levy & Bounty Killer",
+        "titre": "Living Dangerously, 1995",
+        "variations": "",
+        "texte": "Apparu en 1979, Barrington Levy a incarné avec Sugar Minott la relève des chanteurs roots des magiques années 1970. Avec le DJ Yellowman, ils ont eux deux dominé la période dancehall de la première moitié des années 1980, quand les histoires de vaudeville - comme ici - et la dure réalité des ghettos comptaient parmi les thèmes préférés des artistes.",
+        "paroles": "Lord have mercy<br>Woman you're looking too dangerous too dangerous too dangerous<br>Woman a live dangerous, cha !<br>",
+        "conseil": [
+            {   "artiste": "Barrington Levy",
+                "titres": [ "Under Mi Sensi",
+                            "Shine Eye Gal",
+                            "Ah Yah Weh Deh",
+                            "Callie Weed",
+                            "Love of Jah",
+                            "In the Dark",
+                            "Looking my Love",
+                            "She Is the Best Girl",
+                            "Hammer",
+                            "Money Move",
+                            "etc."
+                ]
+            }
+        ]
+    },
+    {
+        "artiste": "Jah Lion",
+        "titre": "Flashing Whip (également connu sous le nom de The Lama), 1976",
+        "variations": [
+            {   "artiste": "Lee \"Scratch\" Perry",
+                "titre": [
+                    {"version": "Bathroom Skank (version chantée)"},
+                    {"version": "Kentucky Skank (version chantée)"}]
+            },
+            {   "artiste": "The Upsetters",
+                "titre": [
+                    {"version": "One Room Skank (version dub)"}]
+            }],
+        "texte": "La version DJ du Bathroom Skank figure sur l'exceptionnel album de Jah Lion \"Colombia Colly\" qui regroupe certaines des meilleures rythmiques enregistrées au légendaire studio Black Ark par \"Scratch\" Perry sous sa casquette de producteur.",
+        "paroles": "Hey I saw this time won't be like the first time<br>For Jah not come like a lamb to be slaughtered",
+        "conseil": [
+            {   "artiste": "Jah Lion",
+                "titres": [ "HayFever",
+                            "Soldier and Police War"
+                ]
+            },
+            {   "artiste": "Jah Lloyd",
+                "titres": [ "Soldier Around the Corner",
+                            "White Belly Rat",
+                            "The Humble One"
+                ]
+            }
+        ]
+    }
+]

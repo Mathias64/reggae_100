@@ -1,0 +1,36 @@
+var playliste=
+[
+{
+"chemin":"http://scriptevol.free.fr/contenu/player_c/zic/noa_neal_graffiti.mp3",
+"image":"pochette/noa_neal.jpg"
+},
+
+{
+"chemin":"http://scriptevol.free.fr/contenu/player_c/zic/j_jeff_f_prince__right_now.mp3",
+"image":"pochette/kool.jpg"
+},
+
+{
+"chemin":"http://scriptevol.free.fr/contenu/player_c/zic/d_soul_all_good.mp3",
+"image":"pochette/d_l_s.jpg"
+}
+]
+
+
+var playliste2=
+[
+{
+"chemin":"http://scriptevol.free.fr/contenu/player_c/zic/noa_neal_graffiti.mp3",
+"image":"pochette/noa_neal360.jpg"
+},
+
+{
+"chemin":"http://scriptevol.free.fr/contenu/player_c/zic/j_jeff_f_prince__right_now.mp3",
+"image":"pochette/kool360.jpg"
+},
+
+{
+"chemin":"http://scriptevol.free.fr/contenu/player_c/zic/d_soul_all_good.mp3",
+"image":"pochette/d_l_s360.jpg"
+}
+]
